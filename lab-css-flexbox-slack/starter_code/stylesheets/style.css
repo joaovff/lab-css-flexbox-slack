@@ -1,0 +1,389 @@
+/*
+background ivory: #F3EAE2
+button blue: #4285F4
+titles black: #191817
+paragraph black: #000000
+paragraph yellow: #ECB12F
+links blue: #2E71A6
+footer links grey: #454245
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;1,200&display=swap');
+html,
+body {
+    margin: 0px;
+    font-family: Noto Sans;
+}
+nav {
+    display: flex;
+}
+.nav-bar {
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background-color: #540B51;
+    position: fixed;
+    align-items: center;
+    font-weight: 500;
+
+}
+.nav-icons {
+    display: flex;
+    list-style: none;
+    margin-top: 18px;
+}
+.list {
+    text-decoration: none;
+        margin-left: 35px;
+    color: white;
+}
+
+.logo-img {
+    height: 25px;
+    width: 95px;
+    margin-left: 25px;
+
+}
+.search-icon,
+.menu-icon,
+.nav-button {
+    background-color: #540B51;
+    border: 0px solid #540B51;
+    margin-bottom: -5px;
+    padding: 0%;
+}
+.search-icon {
+    width: auto;
+    height: 23px;
+}
+
+#TRY {
+    color: #540B51;
+    padding: 12px;
+    background: white;
+    font-weight: 1000;
+    border-radius: 4px;
+}
+header {
+    margin-top: 50px;
+}
+.nav-button {
+    background-color: aliceblue;
+}
+#pricing {
+    margin-right: 1060px;
+}
+#sing-in {
+    margin-left: -5px;
+}
+header {
+    margin-top: 60px;
+    background-color: #540B51;
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 700px;
+    margin-left: 100px;
+}
+h1 {
+    color: white;
+    font-size: 75px;
+    width: 920px;
+    font-weight: 650;
+}
+.short-description {
+    color: white;
+    font-size: 25px;
+    width: 400px;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    height: 55px;    
+}
+
+.signUp-button {
+    color: #540B51;
+    border: 1px solid #540B51;
+    border-radius: 5px;
+    margin-right: 25px;
+    width: 300px;
+    font-weight: 620;
+}
+.signUp-google {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    background-color: #4285F4;
+    color: white;
+    font-weight: 550;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+.google-logo {
+    height: 28px;
+    margin-right: 25px;
+    background-color: white; 
+    padding: 7px;
+}
+
+.center {
+    display: flex;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+
+}
+
+.companies-section {
+    height: 400px;
+    background-color: #F3EAE2;
+    margin-top: -19px;
+}
+
+.companies-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-around;align-items: center;
+    width: 80%;
+    margin-left: 200px;
+}
+
+.companies-logo {
+    margin-top: 100px;
+    height: 50px;
+}
+
+#nasa-logo,
+#target-logo {
+    height: 60px;
+    margin-top: 84px;
+}
+
+.section-one,
+.section-two,
+.section-three
+{
+    display: flex;
+    background-color: #F3EAE2;
+}
+.sections-imgs {
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.right-divs {
+
+    width: 500px;
+    height: 200px;
+    margin-left: 650px;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.sections-descriptions {
+    font-weight: 500;
+}
+
+#span,
+.section-links {
+    text-decoration: none;
+    color: #4285F4;
+    font-weight: 500;
+}
+
+#span-bottom,
+.s-link {
+    text-decoration: none;
+    color: #4285F4;
+    font-weight: 500;
+}
+
+.left-div {
+    height: 300px;
+    margin-left: 150px;
+    width: 450px;
+    padding-right: 680px;
+}
+
+.section-three {
+    margin-bottom: 80px;
+}
+
+.div-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-four {
+    font-size: 40px;    
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.p-four {
+    margin-top: -5px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-buttom {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 15px;
+    width: 320px;
+    height: 50px;
+    color: white;
+    background-color: #540B51;
+    border-radius: 3px;
+    border: 0px;
+}
+
+.right-buttom {
+    font-size: 13px;
+    font-weight: 500;
+    width: 150px;
+    height: 50px;
+    color: #540B51;
+    background-color: white;
+    border-radius: 3px;
+    border: 2px solid #540B51;
+
+}
+.percentage-box {
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 250px;
+    margin-left: -150px;
+    margin-right: -150px;
+}
+
+.span-bottom {
+    color: #540B51;
+    font-size: 46px;
+    font-weight: 800;
+    list-style: none;
+}
+.lists {
+    list-style: none;
+}
+
+.container-bottom {
+    width: 230px;
+    font-weight: 600;
+}
+
+.section-five {
+    background: #540B51;
+    height: 300px;
+    border-end-end-radius: 700px;
+    border-end-start-radius: 700px;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.buttons-again {
+    display: flex;
+    justify-content: center;
+}
+
+.try-buttom {
+    font-size: 14px;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    color: #540B51;
+    background-color: white;
+    border: 1px solid #540B51;
+}
+
+.talk-buttom {
+    font-size: 14px;
+    font-weight: 530;
+    margin-left: 15px;
+    width: 150px;
+    height: 49px;
+    color: white;
+    background-color: #540B51;
+    border: 1px solid white;
+}
+
+footer {
+    margin-left: 50px;
+    width: 95%;
+}
+
+.slack-img {
+    margin-top: 50px;
+    height: 65px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.li-bottom {
+    font-size: smaller;
+    padding: 15px;
+    margin-left: -40px;
+    list-style: none;
+}
+#li-tittle {
+    font-size: 15px;
+}
+
+.another-ul {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.social-ul {
+    display: flex;
+    list-style: none;
+}
+
+#social-icons {
+    padding: 25px;
+    width: 50px;
+    margin-left: -50px;
+}
+.last-div {
+    height: 200px;
+    margin-left: 15px;
+    font-weight: 300;
+}
